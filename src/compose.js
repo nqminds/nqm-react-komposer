@@ -35,7 +35,7 @@ export default function compose(dataLoader, options = {}) {
 
       shouldComponentUpdate(nextProps, nextState) {
         if (shouldUpdate) {
-          return shouldUpdate(this.props, nextProps);
+          return shouldUpdate(this.props, nextProps, this.state, nextState);
         }
 
         if (!pure) {
