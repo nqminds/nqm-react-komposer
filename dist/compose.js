@@ -196,7 +196,7 @@ function compose(dataLoader) {
             _this3.child = c;
           };
 
-          return _react2.default.createElement(Child, (0, _extends3.default)({ ref: setChildRef }, finalProps));
+          return _react2.default.createElement(Child, finalProps);
         }
       }]);
       return Container;

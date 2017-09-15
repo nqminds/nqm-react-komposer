@@ -124,7 +124,7 @@ export default function compose(dataLoader, options = {}) {
         };
 
         return (
-          <Child ref={setChildRef} {...finalProps} />
+          <Child {...finalProps} />
         );
       }
     }
